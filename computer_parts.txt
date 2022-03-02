@@ -1,0 +1,17 @@
+If Computers were Cars:
+
+##Data / Gas: 
+Your car can't do anything without gas, in my example, data is like gas in a car. 
+You fill the car up with gas so that you can do something useful (take a trip).
+
+##CPU / Motor: 
+Your processor is like the motor of your car, it will determine the overall horsepower you have.
+
+##Hard Drive / Gas Tank :
+This is your gas tank of data, it determines how much information you can hold in the computer, 
+while not all of it is used at one time. Of course, unlike gas, this data doesn't go away when it is used by the motor.
+
+##RAM / Carburetor: 
+Think of memory like your carburetor. Data is pulled from your hard drive and held temporarily in RAM for immediate consumption by the motor. 
+Adding RAM allows the CPU access to more gas at one time, increasing its sped potential. 
+8gb RAM to 16gb RAM is akin to upgrading from a 2-barrel to a 4-barrel carb.
