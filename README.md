@@ -1,2 +1,2 @@
 # analogicaly_explained
-I explain computer terms with analogies.
+Computer terms and tech stuff with analogies.
