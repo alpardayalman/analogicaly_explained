@@ -1,0 +1,39 @@
+##I will explain this with the help of an analogy.
+
+In this analogy, you are a program (like Firefox) and your mom is an operating system (like Windows).
+
+Suppose you need to keep a few items and you don’t have containers to store them. You request your mom and she gives you 10 boxes. You keep a few items in each of those boxes. After a month, you no longer need the items inside 6 of those boxes. You should have ideally emptied those boxes and returned those to your mom. But you didn’t do so because you forgot.
+
+6 months later, your mom tells you that she is unable to store her items because she didn’t have enough boxes.
+
+###You: Mom, I have 6 boxes which you can use.
+
+###Mom: Why didn’t you tell me? I have been checking for last 4-5 months and none of the boxes appeared to be empty.
+
+###You: I forgot to empty the boxes. I didn’t know that you could have used those boxes.
+
+###Mom: Oh. And I was assuming that you really needed those boxes.
+
+###You: Sorry mom. Obviously, you can’t know which boxes I needed and which I didn’t. I should have emptied the boxes myself.
+
+###Mom: Yes. By the way, do you know what you did when you didn’t empty those boxes.
+
+###You: I would call it “wastage of boxes” (read: wastage of memory)
+
+###Mom: That’s correct. But the technical term for this is “box leak” (read: memory leak)
+
+When does a memory leak occur?
+
+A program allocates objects in memory.
+The program forgets to delete the objects from memory even when they are no longer required.
+If the program would had cleared the objects from memory then the same memory could have been used for some other purpose.
+When a program doesn’t release a portion of memory even when it is no longer required then the program has essentially wasted that much memory. This is called memory leak.
+Now coming back to your question:
+
+“Firefox had a memory leak and it ate up my RAM. How does this occur?...Why wouldn't my computer just terminate the program instead of letting it use all my memory?”
+
+In this case, firefox used some boxes (memory). After a while, it no longer needed the items of a few of those boxes. It forgot to empty those boxes and return to his mom. His mom (the operating system) didn’t have any idea that those boxes had useless stuff. The boxes remain un-utilized. This is box leak...or memory leak.
+
+By the way, did you notice the name of the shelf on which you had put the boxes? It is called "heap".
+
+credits to Amit Kumar, may he long lives.
